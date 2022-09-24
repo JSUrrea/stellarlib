@@ -8,6 +8,22 @@ Parameters:
 * b :
 * c:
 Output: 
+
+## Tutorial de instalación
+
+**Desde github**
+
+1. Acceder a https://github.com/JSUrrea/stellarlib
+2. 
+3. Click en código
+4. 
+5. Copiar la url HTTPS del repositorio
+6. 
+7. Clonar el repositorio al mismo nivel de su archivo de desarrollo
+8. 
+9. Añadir import stellarlib al incio de su código
+10. 
+
 ## Infraestructura Utilizada
 La infraestructura utilizada para la solución de los retos propuesto en el Codefest Ad Astra 2022 consistió de una solución Cloud a través de los servicios Azure para la ingesta de datos, procesamiento de datos y almacenamiento. Además, se utilizó una infraestructura local como interfaz gráfica para el despliegue del funcionamiento de cada una de las soluciones de los retos. A continuación se muestra una imagen que resumen la infraestructura utilizada.
 ## Estrategias Utilizadas
