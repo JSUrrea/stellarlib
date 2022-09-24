@@ -57,6 +57,83 @@ Carpeta dónde se encuentran imágenes fuente
 
 Carpeta dónde se encuentran imágenes fuente
 
+## **Documentación de las clases y métodos disponibles**
+
+### Clases y métodos
+**stellar.compress**
+
+*stellarlib.compress(tif_path: str, grid: tuple) --> None*
+
+**Descripción:** Comprime una imagen en un archivo .stellar
+
+**Parémetros:**
+
+-  **tif_path (str):**  Path de la imagen que se quiere comprimir.
+- **grid (tuple):** Tamaño de la grilla en la cuál se quiere dividir la imagen a comprimir.
+
+ **stellar.decompress**
+ 
+*stellarlib.decompress(stellar_file: str) --> Tiff*
+
+**Descripción:** Descomprime una imagen .stellar en una imagen Tiff
+
+**Parémetros:**
+
+-  **stellar_file (str):**  Path del archivo .stellar que se quiere descomprimir.
+
+------------
+
+**stellar.secure_transfer**
+
+*stellarlib.secure_transfer(real_password: str) --> def*
+
+**Descripción:** Devuelve una función que valida el acceso a las imágenes
+
+**Parémetros:**
+
+-  **real_password (str):**  Clave a usar para validar al usuario.
+
+------------
+
+**stellar.encrypt_image**
+
+*stellarlib.encrypt_image(image: str, out_path: str) --> def*
+
+**Descripción:** Realiza un cambio aleatorio en el sistema de georreferenciación junto a una translación aleatoria. 
+
+**Parémetros:**
+
+-  **image: (str):**  Path de la imagen que se quiere encriptar sus coordenadas. 
+
+-  **out_path: (str):**  Path de la imagen de salida con las coordenadas encriptadas. 
+
+------------
+
+**stellar.save_image**
+
+*stellarlib.save_image(path: str) --> def*
+
+**Descripción:** Guarda la imagen en el servicio de Azure. 
+
+**Parémetros:**
+
+-  **path: (str):**  Path de la imagen que se quiere guardar en Azure. 
+
+------------
+
+**stellar.create_visual**
+
+*stellarlib.create_visual(path: str) --> def*
+
+**Descripción:** Guarda una visualización de bajo tamaño de la imagen. 
+
+**Parémetros:**
+
+-  **in_path: (str):**  Ruta a la imagen que se desea reducir en tamaño. 
+
+-  **out_path: (str):**   Ruta donde se guardará la visualización resultante.
+
+
 ## **Solución de retos**
 
 Reto 1:  Alteración de Coordenadas
