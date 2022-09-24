@@ -18,8 +18,31 @@ Las librerías que nos permitieron el uso y procesamiento de estas imágenes se 
 * Rasterio
 * Numpy
 * Pillow
+## Estructura de directorios del contenedor
 
-### **Solución de retos**
+### **Carpeta principal: adastra**
+
+**OutImages**
+
+La carpeta contiene las imagenes relacionadas a cada uno de los retos antes y después del procesamiento. 
+
+La imagen antes del procesamiento con su nombre convencional (Ej:recorte_3_m120_l4_20181228_rgbnn)
+
+La imagen con su debida transformación según el reto (Ej:Reto2_recorte_3_m120_l4_20181228_rgbnn)
+
+**Temp**
+
+La carpeta fué usada para guardar archivos intermedios durante el procesamiento
+
+**type1**
+
+Carpeta dónde se encuentran imágenes fuente
+
+**type2**
+
+Carpeta dónde se encuentran imágenes fuente
+
+## **Solución de retos**
 
 Reto 1:  Alteración de Coordenadas
 
