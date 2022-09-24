@@ -149,6 +149,8 @@ La segunda etapa de seguridad y encriptación de la metadata consistió en gener
 
 La combinación de estas 2 etapas de seguridad generan que sea muy difícil recuperar la información de la metadata original.
 
+![Reto 1!](/Resources/reto1.jpg "reto1")
+
 Reto 2:  Previsualización de Imágenes
 
 Para la solución del reto 2 se tomaron 2 acciones que permitían generar una compresión lossy con un gran ratio de compresión sin perder la esencia inicial de la imagen (perfecto para la previsualización de la imagen).
@@ -156,6 +158,8 @@ Para la solución del reto 2 se tomaron 2 acciones que permitían generar una co
 La primera acción que se tomó fue realizar una compresión LERT (algoritmo lossy con gran ratio de compresión pero velocidad baja) con 2 agentes, esto, en el promedio de las imágenes implicaba una reducción del 50%-60%.
 
 Posteriormente, después de tener el output de la compresión LERT se realizó una reducción de la resolución lo suficientemente pequeña para alcanzar al menos el 5% del tamaño de la imagen original. Esta transformación se hizo tomando en cuenta la transformación de la metadata para que esta se mantuviera de manera integra así la calidad de la imagen fuera menor.
+
+![Reto 2!](/Resources/reto2.jpg "reto2")
 
 Reto 3: Cifrado y compresión
 
@@ -166,3 +170,4 @@ La primera de estas acciones fue dividir la imagen en 9 fragmentos, esto con el 
 La segunda acción es tomar cada fragmento obtenido en el paso anterior y comprimirlas a través del algoritmo de compresión "Deflate" (lossless).
 
 Por último, se realizó la unión de cada fragmento comprimido para obtener como resultado la imagen original pero comprimida sin perder calidad a un ratio de 1:10.
+![Reto 3!](/Resources/reto3.jpg "reto3")
