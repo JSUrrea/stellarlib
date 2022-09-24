@@ -1,13 +1,8 @@
 # Documento de Diseño
 Documento de diseño de equipo "Stellar Coders"
 ## Estructura del código
-**stellar.asarray**
-stellar.asarray(a:str, b:int, c:list) --> Img
-Parameters:
-* a (str): Number of bla bla bla
-* b :
-* c:
-Output: 
+
+El paquete se organizó en 3 módulos según el problema que pueden resolver. El archivo `geoencryption.py` contiene el código que permite resolver el problema 1, el archivo `visualization.py` el código para resolver el problema 2 y el archivo `compression.py` el código para resolver el problema 3. Además, contamos con el archivo `utils.py` que da funcionalidad transversal a los 3 módulos.
 
 ## Tutorial de instalación
 
@@ -21,7 +16,7 @@ Output:
  
 4. Clonar el repositorio al mismo nivel de su archivo de desarrollo
  
-5. Añadir import stellarlib al incio de su código 
+5. Añadir import stellarlib al inocio de su código 
 
 ## Infraestructura Utilizada
 La infraestructura utilizada para la solución de los retos propuesto en el Codefest Ad Astra 2022 consistió de una solución Cloud a través de los servicios Azure para la ingesta de datos, procesamiento de datos y almacenamiento. Además, se utilizó una infraestructura local como interfaz gráfica para el despliegue del funcionamiento de cada una de las soluciones de los retos. A continuación se muestra una imagen que resumen la infraestructura utilizada.
@@ -50,7 +45,7 @@ La imagen con su debida transformación según el reto (Ej:Reto2_recorte_3_m120_
 
 - **Temp**
 
-La carpeta fué usada para guardar archivos intermedios durante el procesamiento
+La carpeta fue usada para guardar archivos intermedios durante el procesamiento
 
 - **type1**
 
