@@ -37,7 +37,7 @@ Las librerías que nos permitieron el uso y procesamiento de estas imágenes se 
 
 ### **Carpeta principal: adastra**
 
-**OutImages**
+- **OutImages**
 
 La carpeta contiene las imagenes relacionadas a cada uno de los retos antes y después del procesamiento. 
 
@@ -45,15 +45,15 @@ La imagen antes del procesamiento con su nombre convencional (Ej:recorte_3_m120_
 
 La imagen con su debida transformación según el reto (Ej:Reto2_recorte_3_m120_l4_20181228_rgbnn)
 
-**Temp**
+- **Temp**
 
 La carpeta fué usada para guardar archivos intermedios durante el procesamiento
 
-**type1**
+- **type1**
 
 Carpeta dónde se encuentran imágenes fuente
 
-**type2**
+- **type2**
 
 Carpeta dónde se encuentran imágenes fuente
 
