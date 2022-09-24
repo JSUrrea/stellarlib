@@ -18,7 +18,7 @@ El paquete se organizó en 3 módulos según el problema que pueden resolver. El
  
 5. Añadir import stellarlib al inocio de su código 
 
-## Infraestructura Utilizada
+## Arquitectura Utilizada
 La infraestructura utilizada para la solución de los retos propuesto en el Codefest Ad Astra 2022 consistió de una solución Cloud a través de los servicios Azure para la ingesta de datos, procesamiento de datos y almacenamiento. Además, se utilizó una infraestructura local como interfaz gráfica para el despliegue del funcionamiento de cada una de las soluciones de los retos. A continuación se muestra una imagen que resumen la infraestructura utilizada.
 
 ![Arquitectura AD Astra!](/Resources/ArquitectruraADAstra.png "Arquitectura AD Astra")
