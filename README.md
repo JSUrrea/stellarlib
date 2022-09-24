@@ -139,7 +139,7 @@ Carpeta dónde se encuentran imágenes fuente
 
 ## **Solución de retos**
 
-Reto 1:  Alteración de Coordenadas
+**Reto 1:  Alteración de Coordenadas**
 
 Para la solución del reto 1 se planteó un sistema de protección de la metadata en 2 etapas. 
 
@@ -153,7 +153,7 @@ La combinación de estas 2 etapas de seguridad generan que sea muy difícil recu
 
 ------------
 
-Reto 2:  Previsualización de Imágenes
+**Reto 2:  Previsualización de Imágenes**
 
 Para la solución del reto 2 se tomaron 2 acciones que permitían generar una compresión lossy con un gran ratio de compresión sin perder la esencia inicial de la imagen (perfecto para la previsualización de la imagen).
 
@@ -165,7 +165,7 @@ Posteriormente, después de tener el output de la compresión LERT se realizó u
 
 ------------
 
-Reto 3: Cifrado y compresión
+**Reto 3: Cifrado y compresión**
 
 Para la solución del reto 3 se tomaron 3 acciones para lograr el objetivo deseado. 
 
