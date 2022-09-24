@@ -25,6 +25,9 @@ Output:
 
 ## Infraestructura Utilizada
 La infraestructura utilizada para la solución de los retos propuesto en el Codefest Ad Astra 2022 consistió de una solución Cloud a través de los servicios Azure para la ingesta de datos, procesamiento de datos y almacenamiento. Además, se utilizó una infraestructura local como interfaz gráfica para el despliegue del funcionamiento de cada una de las soluciones de los retos. A continuación se muestra una imagen que resumen la infraestructura utilizada.
+
+![Arquitectura AD Astra!](/Resources/ArquitectruraADAstra.png "Arquitectura AD Astra")
+
 ## Estrategias Utilizadas
 ### **Análisis de Imágenes**
 Para el análisis de imágenes se hizo uso de varias librerías de Python que nos facilitaban el uso y el procesamiento de las imágenes de diferentes formatos. Además se utilizo QGis como software para el visualización y localización de las imágenes y la potencia brindada por las herramientas cloud de Azure.
