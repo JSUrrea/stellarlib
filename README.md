@@ -74,6 +74,8 @@ Carpeta dónde se encuentran imágenes fuente
 -  **tif_path (str):**  Path de la imagen que se quiere comprimir.
 - **grid (tuple):** Tamaño de la grilla en la cuál se quiere dividir la imagen a comprimir.
 
+------------
+
  **stellar.decompress**
  
 *stellarlib.decompress(stellar_file: str) --> Tiff*
