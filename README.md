@@ -151,6 +151,8 @@ La combinación de estas 2 etapas de seguridad generan que sea muy difícil recu
 
 ![Reto 1!](/Resources/reto1.jpeg "reto1")
 
+------------
+
 Reto 2:  Previsualización de Imágenes
 
 Para la solución del reto 2 se tomaron 2 acciones que permitían generar una compresión lossy con un gran ratio de compresión sin perder la esencia inicial de la imagen (perfecto para la previsualización de la imagen).
@@ -161,6 +163,8 @@ Posteriormente, después de tener el output de la compresión LERT se realizó u
 
 ![Reto 2!](/Resources/reto2.jpeg "reto2")
 
+------------
+
 Reto 3: Cifrado y compresión
 
 Para la solución del reto 3 se tomaron 3 acciones para lograr el objetivo deseado. 
@@ -170,4 +174,5 @@ La primera de estas acciones fue dividir la imagen en 9 fragmentos, esto con el 
 La segunda acción es tomar cada fragmento obtenido en el paso anterior y comprimirlas a través del algoritmo de compresión "Deflate" (lossless).
 
 Por último, se realizó la unión de cada fragmento comprimido para obtener como resultado la imagen original pero comprimida sin perder calidad a un ratio de 1:10.
+
 ![Reto 3!](/Resources/reto3.jpeg "reto3")
