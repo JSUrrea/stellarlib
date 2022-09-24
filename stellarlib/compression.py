@@ -126,3 +126,5 @@ def decompress(stellar_file):
         return image
     
 recontruccion = decompress("recorte_mision79_linea2__compressed.stellar")
+im = Image.fromarray(recontruccion, mode='F')
+im.save('salida.tiff', "TIFF")
